@@ -1,0 +1,14 @@
+INICIO
+
+1 - Acordar;
+2 - Desligar despertador;
+3 - Se for dia útil;
+    1 - Levantar-Se;
+    2 - Tomar banho;
+    3 - Arrumar-se;
+    4 - Ir ao trabalho;
+4 -  Se não for dia útil;
+    1 - Desligar despertador;
+    2 - Voltar a dormir;
+
+FIM
