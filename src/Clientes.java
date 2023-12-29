@@ -18,10 +18,6 @@ class Clientes {
 
     public String getNomeTabela() {
         Tabela tabela = getClass().getAnnotation(Tabela.class);
-        if (tabela != null) {
-            return tabela.nome();
-        } else {
-            return "N/A";
-        }
+        return tabela.nome();
     }
 }
