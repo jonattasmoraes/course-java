@@ -1,0 +1,16 @@
+A injeção de dependência (DI) é um padrão de design que visa aumentar a
+flexibilidade e manutenibilidade do código, reduzindo a dependência
+direta entre componentes. No contexto do framework Spring, a injeção de
+dependência é uma prática comum utilizada para gerenciar e injetar
+objetos, conhecidos como dependências, nos componentes de uma aplicação.
+
+A injeção de dependência no Spring pode ser realizada de diversas formas,
+incluindo injeção por construtor, injeção por métodos setters e injeção
+por campos. Anotações como @Autowired e @Component são amplamente
+utilizadas para facilitar esse processo.
+
+Essa abordagem proporciona vários benefícios, como uma maior facilidade
+para realizar testes unitários, permitindo a injeção de dependências
+simuladas ou de teste. Além disso, a injeção de dependência contribui
+para a modularidade do código, tornando-o mais fácil de entender e dar
+manutenção.
